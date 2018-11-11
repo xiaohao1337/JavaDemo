@@ -1,11 +1,15 @@
-仓库创建者操作：
-#echo "内容文本" >> Github_Example.txt
-#git init
-#git add Github_Example.txt
-#git commit -m "describe"
-#git remote add https://github.com/xiaohao1337/JavaDemo.git
-#git push -u master
+通用操作：
+git config --global user.name "xxx"
+git config --global user.email "xxx@xx.com"
+
+仓库创建者提交操作：
+echo "# JavaDemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/xiaohao1337/JavaDemo.git
+git push -u origin master
 
 其余开发人员操作：
-#git remote add https://github.com/xiaohao1337/JavaDemo.git
-#git push -u master
+git remote add origin https://github.com/xiaohao1337/JavaDemo.git
+git push -u origin master
