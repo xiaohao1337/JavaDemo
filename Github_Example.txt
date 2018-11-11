@@ -1,0 +1,11 @@
+仓库创建者操作：
+#echo "内容文本" >> Github_Example.txt
+#git init
+#git add Github_Example.txt
+#git commit -m "describe"
+#git remote add https://github.com/xiaohao1337/JavaDemo.git
+#git push -u master
+
+其余开发人员操作：
+#git remote add https://github.com/xiaohao1337/JavaDemo.git
+#git push -u master
